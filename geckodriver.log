@@ -21,3 +21,11 @@ Read port: 58089
 1666645968013	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofileLKcpMl\\search.json.mozlz4", (void 0)))
 1666645999410	Marionette	INFO	Stopped listening on port 58089
+1666646504095	geckodriver	INFO	Listening on 127.0.0.1:49217
+1666646507091	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofilekEUdHa"
+1666646507712	Marionette	INFO	Marionette enabled
+1666646507720	Marionette	INFO	Listening on port 49229
+Read port: 49229
+1666646508514	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofilekEUdHa\\search.json.mozlz4", (void 0)))
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
