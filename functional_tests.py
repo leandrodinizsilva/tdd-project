@@ -1,31 +1,39 @@
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
+import unittest
 
-options = Options()
-options.binary_location = r'C:\Program Files\Mozilla Firefox\firefox.exe'
-browser = webdriver.Firefox(options=options)
-browser.get('http://localhost:8000')
+class NewVisitorTest(unittest.TestCase):
 
-# Ela nota que o título da página menciona TODO
-assert 'To-Do' in browser.title
+    def test_can_start_a_list_and_retrieve_it_later(self): 
+        options = Options()
+        options.binary_location = r'C:\Program Files\Mozilla Firefox\firefox.exe'
+        self.browser = webdriver.Firefox(options=options)
+        self.browser.get('http://localhost:8000')
 
-# Ela é convidada a entrar com um item TODO imediatamente
+        # Ela nota que o título da página menciona TODO
+        self.assertIn('To-Do', self.browser.title)
 
-# Ela digita "Estudar testes funcionais" em uma caixa de texto
+        # Ela é convidada a entrar com um item TODO imediatamente
 
-# Quando ela aperta enter, a página atualiza, e mostra a lista
-# "1: Estudar testes funcionais" como um item da lista TODO
+        # Ela digita "Estudar testes funcionais" em uma caixa de texto
 
-# Ainda existe uma caixa de texto convidando para adicionar outro item
-# Ela digita: "Estudar testes de unidade"
+        # Quando ela aperta enter, a página atualiza, e mostra a lista
+        # "1: Estudar testes funcionais" como um item da lista TODO
 
-# A página atualiza novamente, e agora mostra ambos os itens na sua lista
+        # Ainda existe uma caixa de texto convidando para adicionar outro item
+        # Ela digita: "Estudar testes de unidade"
 
-# Maria se pergunta se o site vai lembrar da sua lista. Então, ela verifica que
-# o site gerou uma URL única para ela -- existe uma explicação sobre essa feature
+        # A página atualiza novamente, e agora mostra ambos os itens na sua lista
 
-# Ela visita a URL: a sua lista TODO ainda está armazenada
+        # Maria se pergunta se o site vai lembrar da sua lista. Então, ela verifica que
+        # o site gerou uma URL única para ela -- existe uma explicação sobre essa feature
 
-# Satisfeita, ela vai dormir
+        # Ela visita a URL: a sua lista TODO ainda está armazenada
 
-browser.quit()
+        # Satisfeita, ela vai dormir
+
+        self.browser.quit()
+
+
+if __name__ == '__main__':
+    unittest.main()
