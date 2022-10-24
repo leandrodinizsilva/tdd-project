@@ -95,3 +95,34 @@ Read port: 60915
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofilelLHIXk\\search.json.mozlz4", (void 0)))
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
 1666652012568	Marionette	INFO	Stopped listening on port 60915
+1666652843565	geckodriver	INFO	Listening on 127.0.0.1:57962
+1666652846576	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofile93oJmt"
+1666652847084	Marionette	INFO	Marionette enabled
+1666652847092	Marionette	INFO	Listening on port 57974
+Read port: 57974
+1666652847711	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofile93oJmt\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
+1666652851041	Marionette	INFO	Stopped listening on port 57974
+console.warn: services.settings: main/query-stripping sync interrupted by shutdown
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 420))
+[Parent 1492, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1666652870974	geckodriver	INFO	Listening on 127.0.0.1:64055
+1666652873982	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofileCWF6EQ"
+1666652874467	Marionette	INFO	Marionette enabled
+1666652874474	Marionette	INFO	Listening on port 64068
+Read port: 64068
+1666652875032	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofileCWF6EQ\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
+1666652891598	Marionette	INFO	Stopped listening on port 64068
+1666652894825	geckodriver	INFO	Listening on 127.0.0.1:64096
+1666652897839	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofileEtvp4M"
+1666652898355	Marionette	INFO	Marionette enabled
+1666652898365	Marionette	INFO	Listening on port 64108
+Read port: 64108
+1666652898895	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofileEtvp4M\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
+1666652901864	Marionette	INFO	Stopped listening on port 64108
