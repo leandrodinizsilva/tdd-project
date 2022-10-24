@@ -1,0 +1,5 @@
+Testes de unidade verificam um comportamento,
+Testes de funcionalidades as funcionalidades
+
+Testes de unidade cobrem menores partes possiveis de um código,
+teste de funcionalidades cobrem uma parte maior
