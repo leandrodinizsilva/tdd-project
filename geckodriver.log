@@ -138,3 +138,23 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: http://l
 1666653098863	Marionette	INFO	Stopped listening on port 64042
 console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
 console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 420))
+1666653991160	geckodriver	INFO	Listening on 127.0.0.1:54943
+1666653994179	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofilej5LM1v"
+1666653994658	Marionette	INFO	Marionette enabled
+1666653994664	Marionette	INFO	Listening on port 54955
+Read port: 54955
+1666653995254	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofilej5LM1v\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
+1666653999572	Marionette	INFO	Stopped listening on port 54955
+1666654024843	geckodriver	INFO	Listening on 127.0.0.1:55002
+1666654027863	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofileebO2Ml"
+1666654028363	Marionette	INFO	Marionette enabled
+1666654028368	Marionette	INFO	Listening on port 55014
+Read port: 55014
+1666654028969	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofileebO2Ml\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
+1666654035504	Marionette	INFO	Stopped listening on port 55014
