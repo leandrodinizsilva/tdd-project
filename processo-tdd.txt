@@ -1,0 +1,11 @@
+Escrevemos um teste de funcionalidade.
+Se estivermos usando TDD ele não vai passar de primeira
+Escrevemos o teste de unidade,
+Se estivermos usando TDD ele não vai passar de primeira
+Escrevemos o minimo possível de código para ele passar.
+Se precisarmos de refatoração, refatoramos e executamos os testes de unidade
+se não voltamos ao ciclo do teste de funcionalidade.
+Executamos o teste de funcionalidade ele passa?
+Se sim precisamos fazer refatoração? Se sim fazemos e executamos
+o teste até ele passar, se não concluimos essa sequência de testes
+e pulamos para a próxima
