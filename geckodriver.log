@@ -1,0 +1,23 @@
+1666644814190	geckodriver	INFO	Listening on 127.0.0.1:60232
+1666644848154	geckodriver	INFO	Listening on 127.0.0.1:60244
+1666645035816	geckodriver	INFO	Listening on 127.0.0.1:58199
+1666645207787	geckodriver	INFO	Listening on 127.0.0.1:60493
+1666645213834	geckodriver	INFO	Listening on 127.0.0.1:60505
+1666645440018	geckodriver	INFO	Listening on 127.0.0.1:51129
+1666645475125	geckodriver	INFO	Listening on 127.0.0.1:51141
+1666645638611	geckodriver	INFO	Listening on 127.0.0.1:53572
+1666645641615	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofile3fOabz"
+1666645642281	Marionette	INFO	Marionette enabled
+1666645642291	Marionette	INFO	Listening on port 53584
+Read port: 53584
+1666645643098	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofile3fOabz\\search.json.mozlz4", (void 0)))
+1666645649948	Marionette	INFO	Stopped listening on port 53584
+1666645963714	geckodriver	INFO	Listening on 127.0.0.1:58077
+1666645966712	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofileLKcpMl"
+1666645967332	Marionette	INFO	Marionette enabled
+1666645967340	Marionette	INFO	Listening on port 58089
+Read port: 58089
+1666645968013	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofileLKcpMl\\search.json.mozlz4", (void 0)))
+1666645999410	Marionette	INFO	Stopped listening on port 58089
