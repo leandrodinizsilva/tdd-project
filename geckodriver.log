@@ -126,3 +126,15 @@ Read port: 64108
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofileEtvp4M\\search.json.mozlz4", (void 0)))
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
 1666652901864	Marionette	INFO	Stopped listening on port 64108
+1666653090609	geckodriver	INFO	Listening on 127.0.0.1:64030
+1666653093629	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofileCgG4C6"
+1666653094144	Marionette	INFO	Marionette enabled
+1666653094150	Marionette	INFO	Listening on port 64042
+Read port: 64042
+1666653094692	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofileCgG4C6\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:8000."
+1666653098863	Marionette	INFO	Stopped listening on port 64042
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 420))
