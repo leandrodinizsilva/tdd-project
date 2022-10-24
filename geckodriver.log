@@ -46,3 +46,43 @@ Read port: 54062
 1666649826906	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofileHhRYsB\\search.json.mozlz4", (void 0)))
 1666649829398	Marionette	INFO	Stopped listening on port 54062
+1666651419309	geckodriver	INFO	Listening on 127.0.0.1:61816
+1666651422314	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofileTX10iE"
+1666651422912	Marionette	INFO	Marionette enabled
+1666651422918	Marionette	INFO	Listening on port 61828
+Read port: 61828
+1666651423633	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofileTX10iE\\search.json.mozlz4", (void 0)))
+1666651426207	Marionette	INFO	Stopped listening on port 61828
+1666651440119	geckodriver	INFO	Listening on 127.0.0.1:61849
+1666651443115	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofilefBGnOp"
+1666651443687	Marionette	INFO	Marionette enabled
+1666651443693	Marionette	INFO	Listening on port 61861
+Read port: 61861
+1666651444397	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofilefBGnOp\\search.json.mozlz4", (void 0)))
+1666651450687	Marionette	INFO	Stopped listening on port 61861
+1666651457143	geckodriver	INFO	Listening on 127.0.0.1:50504
+1666651460153	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofileRKKFCQ"
+1666651460754	Marionette	INFO	Marionette enabled
+1666651460762	Marionette	INFO	Listening on port 50516
+Read port: 50516
+1666651461434	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofileRKKFCQ\\search.json.mozlz4", (void 0)))
+1666651463866	Marionette	INFO	Stopped listening on port 50516
+1666651537775	geckodriver	INFO	Listening on 127.0.0.1:56032
+1666651540771	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofile9saKZo"
+1666651541395	Marionette	INFO	Marionette enabled
+1666651541402	Marionette	INFO	Listening on port 56046
+Read port: 56046
+1666651542077	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofile9saKZo\\search.json.mozlz4", (void 0)))
+1666651545374	Marionette	INFO	Stopped listening on port 56046
+1666651612870	geckodriver	INFO	Listening on 127.0.0.1:61997
+1666651615869	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofileG0HzOV"
+1666651616419	Marionette	INFO	Marionette enabled
+1666651616428	Marionette	INFO	Listening on port 62010
+Read port: 62010
+1666651617034	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofileG0HzOV\\search.json.mozlz4", (void 0)))
+1666651620425	Marionette	INFO	Stopped listening on port 62010
