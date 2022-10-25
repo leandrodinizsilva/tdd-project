@@ -166,9 +166,9 @@ Read port: 52760
 1666740387727	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofileJ1aFIL\\search.json.mozlz4", (void 0)))
 1666740396171	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
-1666740566430	geckodriver	INFO	Listening on 127.0.0.1:58391
-1666740569428	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofilehkyHaP"
-1666740569843	Marionette	INFO	Marionette enabled
+1666740868665	Marionette	INFO	Stopped listening on port 52760
+JavaScript error: chrome://remote/content/marionette/cert.js, line 57: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+nabled
 1666740569855	Marionette	INFO	Listening on port 49872
 Read port: 49872
 1666740570031	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
@@ -196,3 +196,13 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:51607."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:51607."
 1666740714724	Marionette	INFO	Stopped listening on port 51620
+1666741551853	geckodriver	INFO	Listening on 127.0.0.1:57152
+1666741554844	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofileL17hZQ"
+1666741555802	Marionette	INFO	Marionette enabled
+1666741555809	Marionette	INFO	Listening on port 57166
+Read port: 57166
+1666741556627	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofileL17hZQ\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:57151."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:57151."
+1666741559834	Marionette	INFO	Stopped listening on port 57166
