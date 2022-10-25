@@ -206,3 +206,22 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:57151."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:57151."
 1666741559834	Marionette	INFO	Stopped listening on port 57166
+1666741748186	geckodriver	INFO	Listening on 127.0.0.1:63205
+1666741751199	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofilesjyzWP"
+1666741751694	Marionette	INFO	Marionette enabled
+1666741751700	Marionette	INFO	Listening on port 63217
+Read port: 63217
+1666741752255	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofilesjyzWP\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:63204."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:63204."
+1666741754673	Marionette	INFO	Stopped listening on port 63217
+1666741755494	geckodriver	INFO	Listening on 127.0.0.1:63240
+1666741758515	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofileJzninZ"
+1666741758968	Marionette	INFO	Marionette enabled
+1666741758980	Marionette	INFO	Listening on port 63252
+Read port: 63252
+1666741759499	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofileJzninZ\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:63204."
+1666741761833	Marionette	INFO	Stopped listening on port 63252
