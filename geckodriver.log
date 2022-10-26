@@ -333,3 +333,21 @@ Read port: 55576
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofileChjBgn\\search.json.mozlz4", (void 0)))
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:55497."
 1666744209769	Marionette	INFO	Stopped listening on port 55576
+1666744481736	geckodriver	INFO	Listening on 127.0.0.1:54786
+1666744484751	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofilefY78GU"
+1666744485207	Marionette	INFO	Marionette enabled
+1666744485212	Marionette	INFO	Listening on port 54798
+Read port: 54798
+1666744485676	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofilefY78GU\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:54785."
+1666744492645	Marionette	INFO	Stopped listening on port 54798
+1666744493865	geckodriver	INFO	Listening on 127.0.0.1:54859
+1666744496887	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofilessYDUY"
+1666744497365	Marionette	INFO	Marionette enabled
+1666744497371	Marionette	INFO	Listening on port 54872
+Read port: 54872
+1666744497941	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofilessYDUY\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:54785."
+1666744505148	Marionette	INFO	Stopped listening on port 54872
