@@ -276,3 +276,42 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:58830."
 1666742649154	Marionette	INFO	Stopped listening on port 52773
 1666742649832	geckodriver	INFO	Listening on 127.0.0.1:52798
+1666742903365	geckodriver	INFO	Listening on 127.0.0.1:52868
+1666742906394	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofileIRclW3"
+1666742906778	Marionette	INFO	Marionette enabled
+1666742906783	Marionette	INFO	Listening on port 52882
+Read port: 52882
+1666742907263	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofileIRclW3\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:52867."
+1666742914171	Marionette	INFO	Stopped listening on port 52882
+1666742914893	geckodriver	INFO	Listening on 127.0.0.1:52947
+1666742917913	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofileoPxwBs"
+1666742918313	Marionette	INFO	Marionette enabled
+1666742918318	Marionette	INFO	Listening on port 52959
+Read port: 52959
+1666742918805	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofileoPxwBs\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:52867."
+1666742925624	Marionette	INFO	Stopped listening on port 52959
+1666742970423	geckodriver	INFO	Listening on 127.0.0.1:58989
+1666742973430	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofileh8gQmo"
+1666742973910	Marionette	INFO	Marionette enabled
+1666742973917	Marionette	INFO	Listening on port 59001
+Read port: 59001
+1666742974402	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofileh8gQmo\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:58988."
+1666742981252	Marionette	INFO	Stopped listening on port 59001
+1666742982055	geckodriver	INFO	Listening on 127.0.0.1:59063
+1666742985066	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofile1oO2CT"
+1666742985530	Marionette	INFO	Marionette enabled
+1666742985538	Marionette	INFO	Listening on port 59075
+Read port: 59075
+1666742986022	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofile1oO2CT\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:58988."
+1666742992879	Marionette	INFO	Stopped listening on port 59075
+[Parent 14076, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 14076, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 14076, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
