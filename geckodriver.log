@@ -256,3 +256,23 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: http://l
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:49426."
 1666742260674	Marionette	INFO	Stopped listening on port 49439
 1666742261368	geckodriver	INFO	Listening on 127.0.0.1:49474
+1666742611595	geckodriver	INFO	Listening on 127.0.0.1:58831
+1666742614598	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofilen5zdHy"
+1666742615209	Marionette	INFO	Marionette enabled
+1666742615221	Marionette	INFO	Listening on port 58843
+Read port: 58843
+1666742615738	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofilen5zdHy\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:58830."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:58830."
+1666742642331	Marionette	INFO	Stopped listening on port 58843
+1666742642970	geckodriver	INFO	Listening on 127.0.0.1:52760
+1666742645996	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofileRlnKkl"
+1666742646396	Marionette	INFO	Marionette enabled
+1666742646404	Marionette	INFO	Listening on port 52773
+Read port: 52773
+1666742646860	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofileRlnKkl\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:58830."
+1666742649154	Marionette	INFO	Stopped listening on port 52773
+1666742649832	geckodriver	INFO	Listening on 127.0.0.1:52798
