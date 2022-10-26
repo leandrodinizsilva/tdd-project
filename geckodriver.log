@@ -315,3 +315,21 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: http://l
 [Parent 14076, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
 [Parent 14076, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
 [Parent 14076, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1666744183000	geckodriver	INFO	Listening on 127.0.0.1:55498
+1666744186011	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofileYfuPra"
+1666744186475	Marionette	INFO	Marionette enabled
+1666744186484	Marionette	INFO	Listening on port 55510
+Read port: 55510
+1666744187162	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofileYfuPra\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:55497."
+1666744194183	Marionette	INFO	Stopped listening on port 55510
+1666744194835	geckodriver	INFO	Listening on 127.0.0.1:55564
+1666744197837	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofileChjBgn"
+1666744198398	Marionette	INFO	Marionette enabled
+1666744198403	Marionette	INFO	Listening on port 55576
+Read port: 55576
+1666744198950	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Leandro\\AppData\\Local\\Temp\\rust_mozprofileChjBgn\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:55497."
+1666744209769	Marionette	INFO	Stopped listening on port 55576
