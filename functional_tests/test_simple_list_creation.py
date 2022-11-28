@@ -1,62 +1,4 @@
-from django.contrib.staticfiles.testing import StaticLiveServerTestCase
-from selenium import webdriver
-from selenium.common.exceptions import WebDriverException
-from selenium.webdriver.firefox.options import Options
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.common.by import By
-
-import time
-
-MAX_WAIT = 5
-
-class NewVisitorTest(StaticLiveServerTestCase):
-    def setUp(self):
-        options = Options()
-        options.binary_location = r'C:\Program Files\Mozilla Firefox\firefox.exe'
-        self.browser = webdriver.Firefox(options=options)
-        self.browser.get('http://localhost:8000')
-
-    def tearDown(self):
-        self.browser.quit()
-
-    def wait_for_row_in_list_table(self, row_text):
-        start_time = time.time()
-        while True:
-            try:
-                table = self.browser.find_element(By.ID,'id_list_table')  
-                rows = table.find_elements_by_tag_name('tr')
-                self.assertIn(row_text, [row.text for row in rows])
-                return
-            except (AssertionError, WebDriverException) as e:  
-                if time.time() - start_time > MAX_WAIT:  
-                    raise e  
-                time.sleep(0.5)
-
-    def test_layout_and_styling(self):
-        # Edith entra na home page
-        self.browser.get(self.live_server_url)
-        self.browser.set_window_size(1024, 768)
-
-        # Ela nota que o input box está centralizado
-        inputbox = self.browser.find_element(By.ID,'id_new_item')
-        self.assertAlmostEqual(
-            inputbox.location['x'] + inputbox.size['width'] / 2,
-            512,
-            delta=10
-        )
-
-        # Ela inicia uma nova lista e nota que o input
-        # também está centralizado
-        inputbox.send_keys('testing')
-        inputbox.send_keys(Keys.ENTER)
-        self.wait_for_row_in_list_table('1: testing')
-        inputbox = self.browser.find_element(By.ID,'id_new_item')
-        self.assertAlmostEqual(
-            inputbox.location['x'] + inputbox.size['width'] / 2,
-            512,
-            delta=10
-        )
-
+class NewVisitorTest(FunctionalTest):
     def test_can_start_a_list_for_one_user(self): 
     
         # Maria decidiu utilizar o novo app TODO. Ela entra em sua página principal:
@@ -64,7 +6,7 @@ class NewVisitorTest(StaticLiveServerTestCase):
 
         # Ela nota que o título da página menciona TODO
         self.assertIn('To-Do', self.browser.title)
-        header_text = self.browser.find_element_by_tag_name('h1').text  
+        header_text = self.browser.find_element(By.TAG_NAME,'h1').text  
         self.assertIn('To-Do', header_text)
 
         # Ela é convidada a entrar com um item TODO imediatamente
@@ -114,7 +56,7 @@ class NewVisitorTest(StaticLiveServerTestCase):
 
         # João visita a página inicial. Não existe nenhum sinal da lista de Maria
         self.browser.get(self.live_server_url)
-        page_text = self.browser.find_element_by_tag_name('body').text
+        page_text = self.browser.find_element(By.TAG_NAME,'body').text
         self.assertNotIn('1: Estudar testes funcionais', page_text)
         self.assertNotIn('2: Estudar testes de unidade', page_text)
 
@@ -130,9 +72,8 @@ class NewVisitorTest(StaticLiveServerTestCase):
         self.assertNotEqual(joao_list_url, maria_list_url)
 
         # Novamente, não existe sinal da lista de Maria
-        page_text = self.browser.find_element_by_tag_name('body').text
+        page_text = self.browser.find_element(By.TAG_NAME,'body').text
         self.assertNotIn('Estudar testes funcionais', page_text)
         self.assertIn('Comprar leite', page_text)
 
         # Satisfeitos, ambos vão dormir
-
